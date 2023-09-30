@@ -22,12 +22,12 @@ Then we indroduced the sup constrastive loss where we had 2 views per modality (
 ## Meter ML 
 The script `meterml_pretrain.py` can be used to pre-train a Small AlexNet on MeterML dataset. 
 You can then use `meterml_finetune.py` to finetune the model with/without fusion, with/without augmentation with/without SupContrastive Loss 
-Example of utilisation are given in `meterml_finetune.sh` 
+Example of utilisation is given in `meterml_finetune.sh` 
 ## DFC2020 
 The script `dfc_finetune.py`can be used to finetune a two ResNet50 backbones pre-trained on SEN12MS dataset.
 You can finetune with/without SupContrastive loss.
 To pre-train the model: (https://github.com/HSG-AIML/SSLTransformerRS/tree/main)
-Example of utilisation are given in `dfc_finetune.sh` 
+Example of utilisation is given in `dfc_finetune.sh` 
 
 ## Models 
 4 models can be downloaded:
