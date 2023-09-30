@@ -42,9 +42,9 @@ pre-trained + finetuned model on DFC2020 using SupContrastive Loss:
 
 ## Results
 * DFC2020
-![dfc2020](https://github.com/bakiuzun/SupCon_SSL/images/blob/main/dfc_downstream.png)
+![dfc2020](https://github.com/bakiuzun/SupCon_SSL/blob/main/images/dfc_downstream.png)
 * MeterML 
-![meterml](https://github.com/bakiuzun/SupCon_SSL/images/blob/main/meterml_downstream.png)
+![meterml](https://github.com/bakiuzun/SupCon_SSL/blob/main/images/meterml_downstream.png)
 
 
 ## Code
