@@ -9,6 +9,7 @@ Pytorch: 1.12.1
 We used 2 different dataset to test our new approach 
 * METER ML which contain Sentinel-1 Sentinel-2 pair
 * DFC2020 which is itself an extension to the SEN12MS datase
+
 ![Dataset](https://github.com/bakiuzun/SupCon_SSL/blob/main/images/dataset.png)
 
 
@@ -30,14 +31,10 @@ Example of utilisation are given in `dfc_finetune.sh`
 
 ## Models 
 4 models can be downloaded:
-only pre-trained model on MeterML:
-* [SmallAlexNet](https://drive.google.com/drive/folders/1kigBZ6bzpDEsgDUotkiiiEEC6vmJZvul?usp=sharing)
-pre-trained + finetuned model on MeterML using SupContrastive Loss:
-* [FineTunedSmallAlexNet](https://drive.google.com/drive/folders/1kigBZ6bzpDEsgDUotkiiiEEC6vmJZvul?usp=sharing)
-only pre-trained model on SEN12MS:
-* [DualResnet50](https://drive.google.com/drive/folders/1kigBZ6bzpDEsgDUotkiiiEEC6vmJZvul?usp=sharing)
-pre-trained + finetuned model on DFC2020 using SupContrastive Loss:
-* [FineTunedDualResnet50](https://drive.google.com/drive/folders/1kigBZ6bzpDEsgDUotkiiiEEC6vmJZvul?usp=sharing)
+* only pre-trained model on MeterML: [SmallAlexNet](https://drive.google.com/drive/folders/1kigBZ6bzpDEsgDUotkiiiEEC6vmJZvul?usp=sharing)
+* pre-trained + finetuned model on MeterML using SupContrastive Loss: [FineTunedSmallAlexNet](https://drive.google.com/drive/folders/1kigBZ6bzpDEsgDUotkiiiEEC6vmJZvul?usp=sharing)
+* only pre-trained model on SEN12MS: [DualResnet50](https://drive.google.com/drive/folders/1kigBZ6bzpDEsgDUotkiiiEEC6vmJZvul?usp=sharing)
+* pre-trained + finetuned model on DFC2020 using SupContrastive Loss: [FineTunedDualResnet50](https://drive.google.com/drive/folders/1kigBZ6bzpDEsgDUotkiiiEEC6vmJZvul?usp=sharing)
 
 
 ## Results
