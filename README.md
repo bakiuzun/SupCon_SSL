@@ -8,7 +8,7 @@ Pytorch: 1.12.1
 ## Dataset 
 We used 2 different dataset to test our new approach 
 * METER ML which contain Sentinel-1 Sentinel-2 pair
-* DFC2020 which is itself an extension to the SEN12MS datase
+* DFC2020 which is itself an extension to the SEN12MS dataset
 
 ![Dataset](https://github.com/bakiuzun/SupCon_SSL/blob/main/images/dataset.png)
 
